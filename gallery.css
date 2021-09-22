@@ -1,0 +1,200 @@
+body {
+    background: rgb(204, 176, 232);
+    background: linear-gradient(
+      175deg,
+      rgba(204, 176, 232, 1) 0%,
+      rgba(95, 86, 232, 1) 50%,
+      rgba(44, 191, 165, 1) 100%
+    );
+    color: rgb(255, 250, 245);
+  }
+  
+  h3 {
+      font-family: 'Manrope', sans-serif;
+  }
+  
+  p {
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  header {
+    width: 100%;
+    margin-top: 20px;
+    
+  }
+  
+  .ancho {
+    width: 80%;
+    height: 80px;
+    background: rgb(97, 76, 76);
+    margin: auto;
+    border: 2px solid rgb(28, 14, 59);
+  }
+  
+  .logo {
+    width: 30%;
+    height: 80px;
+    float: left;
+  }
+  
+  .logo img {
+    width: 76px;
+  }
+  
+  nav {
+    width: 70%;
+    height: 80px;
+    float: left;
+    text-align: right;
+    line-height: 80px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(63, 52, 66);
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 23, 133);
+  }
+
+  .ayuda {
+    font-size: 80px;
+    margin: auto;
+  }
+  
+
+  .home img {
+    width: 80%;
+    display: block;
+  }
+
+  
+  .galeriacont {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid: 600px 500px;
+      padding: 20px;
+  }
+
+  .contenedor {
+    width: 600px;
+    height: 500px;
+    transition: all 0.25s;
+    margin: 50px auto;
+
+  }
+
+  .contenedor:hover {
+    transform: translateY(-15px);
+  }
+
+  .galeria {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(28, 14, 59);
+  }
+
+  .img {
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+  }
+
+  .img:hover {
+    opacity: 30%;
+  }
+
+  .imgparrafo {
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    opacity: 0%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgparrafo p {
+    display: flex;
+    position: absolute;
+    color: #e3ddee;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .imgparrafo:hover {
+    opacity: 90%;
+    background-color: rgb(56, 23, 133);
+  }
+
+  .foot {
+    display: inline-flex;
+    margin: 0px 80px 20px;
+  }
+  
+  .foot h3,
+  .foot p {
+    text-align: center;
+  }
+  
+  .foot h3 {
+    padding: 20px;
+  }
+  
+  .yacasi {
+    width: 500px;
+    display: block;
+    margin: 30px;
+  }
+  
+  .yacasi p {
+    text-align: left;
+    padding-left: 25px;
+  }
+  
+  .mapa {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .redes {
+    width: 100px;
+  }
+  
+  .jaja {
+    text-align: center;
+  }
+  
+  .ayuda {
+    display: block;
+    margin: 40px auto 0;
+  }
+  
+  .copy {
+      padding: 10px;
+      border: 1px solid rgb(56, 23, 133);
+      margin: 10px;
+  }
+  

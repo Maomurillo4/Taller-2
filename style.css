@@ -1,0 +1,194 @@
+body {
+  background: rgb(204, 176, 232);
+  background: linear-gradient(
+    175deg,
+    rgba(204, 176, 232, 1) 0%,
+    rgba(95, 86, 232, 1) 50%,
+    rgba(44, 191, 165, 1) 100%
+  );
+  color: rgb(255, 250, 245);
+}
+
+h3 {
+    font-family: 'Manrope', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+.ancho {
+  width: 80%;
+  height: 80px;
+  background: rgb(97, 76, 76);
+  margin: auto;
+  border: 2px solid rgb(28, 14, 59);
+}
+
+.logo {
+  width: 30%;
+  height: 80px;
+  float: left;
+}
+
+.logo img {
+  width: 76px;
+}
+
+nav {
+  width: 70%;
+  height: 80px;
+  float: left;
+  text-align: right;
+  line-height: 80px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+  color: rgb(63, 52, 66);
+}
+
+.home img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.toptres {
+  margin: auto;
+  display: inline-flex;
+  padding: 50px;
+}
+
+.elemento {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: 3px solid rgb(156, 78, 120);
+}
+
+.articulo h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;;
+}
+
+.topseis {
+  display: inline-flex;
+  margin: 30px 80px 20px;
+}
+
+.primeralinea {
+  width: 33.3%;
+  display: block;
+  margin: 0 20px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.primera {
+  width: 500px;
+  border: 2px solid rgb(109, 54, 160);
+}
+
+.primeralinea p {
+  padding: 10px;
+}
+
+.video {
+  display: flex;
+  margin: 100px auto;
+  border: 2px solid rgb(109, 54, 160);
+  width: 1500px;
+  height: 750px;
+}
+
+.foot {
+  display: inline-flex;
+  margin: 0px 80px 20px;
+}
+
+.foot h3,
+.foot p {
+  text-align: center;
+}
+
+.foot h3 {
+  padding: 20px;
+}
+
+.yacasi {
+  width: 500px;
+  display: block;
+  margin: 30px;
+}
+
+.yacasi p {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.mapa {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.redes {
+  width: 100px;
+}
+
+.jaja {
+  text-align: center;
+}
+
+.ayuda {
+  display: block;
+  margin: 40px auto 0;
+}
+
+.copy {
+    padding: 10px;
+    border: 1px solid rgb(56, 23, 133);
+    margin: 10px;
+}
+
+.primeralinea {
+  transition: all 0.25s;
+}
+
+.primeralinea:hover {
+  transform: translateY(-15px);
+  background-color: rgb(28, 14, 59);
+}
